@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $CFILE > $CFILE.s
+echo $CFILE > main.s
