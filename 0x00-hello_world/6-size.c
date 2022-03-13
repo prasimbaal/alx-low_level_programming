@@ -7,5 +7,5 @@ int main(void)
     printf("Size of a %s: 4 byte(s)\n","long_int");
     printf("Size of a %s: 8 byte(s)\n", "long_long");
     printf("Size of a %s: 4 byte(s)\n","float");
-    return (0)_;
+    return (0);
 }
