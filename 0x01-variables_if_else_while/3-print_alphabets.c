@@ -4,16 +4,14 @@ int main(void) /* takes not arguments*/
 {
 char lower;
 char upper;
-
- for (lower = 'a';lower<='z';lower++) /*for loop to print the alphabet in lowercase*/
+for (lower = 'a'; lower <= 'z'; lower++) /*loop to print alphabet in lowercase*/
 {
 putchar(lower);
 }
-
- for (upper ='A';upper<='Z';upper++) /*for loop for printing the alphabet in uppercase*/
+for (upper = 'A'; upper <= 'Z'; upper++) /*to print alphabet in uppercase*/
 {
 putchar(upper);
 }
 putchar('\n');
-return 0;
+return (0);
 }
