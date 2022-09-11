@@ -4,7 +4,7 @@ int main(void) /* takes not arguments*/
 {
 char lower;
 char upper;
-for (lower = 'a'; lower <= 'z'; lower++) /*loop to print alphabet in lowercase*/
+for (lower = 'a'; lower <= 'z'; lower++) /*to print alphabet in lowercase*/
 {
 putchar(lower);
 }
