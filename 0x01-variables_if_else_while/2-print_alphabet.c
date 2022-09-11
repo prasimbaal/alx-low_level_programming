@@ -7,7 +7,7 @@ char alphabet; /* variable for alphabets*/
 for (alphabet = 'a'; alphabet <= 'z'; alphabet++)
 {
 putchar(alphabet);
-putchar('\n');
 }
+putchar('\n');
 return (0);
 }
