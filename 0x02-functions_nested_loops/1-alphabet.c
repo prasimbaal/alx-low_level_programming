@@ -1,12 +1,18 @@
-#include <stdio.h>
+#include "main.h"
+/*
 
-int main ()
+int main()
 {
-  char ch;
+  print_alphabet();
+  putchar('\n');
+  return 0;
+}
+*/
+void print_alphabet(void)
+{
+  char alphabet;
+  for (alphabet = 'a'; alphabet <= 'z'; alphabet++)
+    putchar(alphabet);
 
-  for(ch = 'A' ; ch <= 'Z' ; ch++) {
-    putchar(int tolower (int ch));
-  }
-
-  return(0);
+  putchar('\n');
 }
