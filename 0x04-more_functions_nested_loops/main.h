@@ -4,6 +4,7 @@
 #include <stdio.h>
 
 void print_line(int n);
+void print_diagonal(int n);
 int _putchar(char c);
 void print_numbers(void);
 int mul(int a, int b);
